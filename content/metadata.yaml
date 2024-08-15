@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Context-Adaptive Statistical Inference: Recent Progress, Open Problems, and Opportunities for Foundation Models"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -7,18 +7,18 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - github: blengerich
+    name: Ben Lengerich
+    initials: BL
+    orcid: 0000-0001-8690-9554
+    twitter: ben_lengerich
+    mastodon:
+    mastodon-server:
+    email: lengerich@wisc.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - Department of Statistics, University of Wisconsin-Madison
     funders:
-      - Grant XXXXXXXX
+        -
   - github: janeroe
     name: Jane Roe
     initials: JR
