@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Context-Adaptive Statistical Inference: Recent Progress, Open Problems, and Opportunities for Foundation Models
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -10,8 +10,10 @@
 
 <!-- usage note: edit this section. -->
 
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+This project focuses on improving statistical methods through context-adaptive inference. We look at recent progress, identify the main challenges, and find practical opportunities for applying these methods. We are particularly excited by the opportunities for foundation models to provide context for statistical inference.
+
+
+This manuscript is created automatically from the content in [content](https://github.com/LengerichLab/context-review/tree/main/content) using Manubot. Please make a PR to contribute, and see below for more information about Manubot.
 
 ## Manubot
 
