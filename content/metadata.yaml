@@ -19,12 +19,15 @@ authors:
       - Department of Statistics, University of Wisconsin-Madison
     funders:
         -
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+  - github: cnellington
+    name: Caleb N. Ellington
+    initials: CE
+    orcid: 0000-0001-7029-8023
+    twitter: probablybots
+    mastodon:
+    mastodon-server:
+    email: cellingt@cs.cmu.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
-    corresponding: true
+      - Computational Biology Department, Carnegie Mellon University
+    funders:
+        -
