@@ -1,4 +1,13 @@
+arxiv
 blengerich
-janeroe
-lengerich
-XXXX
+cnellington
+covariate
+covariates
+Lengerich
+OLS
+Personalization
+probablybots
+RBF
+regularizaiton
+regularizer
+subpopulation
