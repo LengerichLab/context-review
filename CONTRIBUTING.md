@@ -1,7 +1,4 @@
-# Contribution guidelines for the In-Context Review
-
-Please see [`USAGE.md`](USAGE.md) for information on how to use the Manubot for writing the manuscript.
-Below you'll find information on the contribution workflow for the Deep Review.
+# Contribution guidelines for the Context Review
 
 ## Issues
 
@@ -31,3 +28,7 @@ did you read cited literature, look over the text in detail, or are you just sup
 
 Before a repository maintainer merges a pull request, there must be at least one affirmative review.
 If there is any unaddressed criticism or disapproval, a repository maintainer will determine how to proceed and may wait for additional feedback.
+
+## Manubot
+
+Please see [`USAGE.md`](USAGE.md) for information on how to use the Manubot for writing the manuscript. Contributions to the main [content](https://github.com/LengerichLab/context-review/tree/main/content) directory will be automatically compiled into the live [HTML](https://LengerichLab.github.io/context-review/) and [PDF](https://LengerichLab.github.io/context-review/manuscript.pdf) versions of the manuscript.
