@@ -54,8 +54,8 @@
   <meta name="dc.date" content="2024-08-25" />
   <meta name="citation_publication_date" content="2024-08-25" />
   <meta property="article:published_time" content="2024-08-25" />
-  <meta name="dc.modified" content="2024-08-25T14:22:26+00:00" />
-  <meta property="article:modified_time" content="2024-08-25T14:22:26+00:00" />
+  <meta name="dc.modified" content="2024-08-25T14:38:34+00:00" />
+  <meta property="article:modified_time" content="2024-08-25T14:38:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -76,9 +76,9 @@
   <meta name="citation_fulltext_html_url" content="https://LengerichLab.github.io/context-review/" />
   <meta name="citation_pdf_url" content="https://LengerichLab.github.io/context-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://LengerichLab.github.io/context-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/" />
-  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/" />
+  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -95,9 +95,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/">permalink</a>)
+(<a href="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/LengerichLab/context-review/tree/396f218dc1111c1a4b513d8e045876e137d3ec1c">LengerichLab/context-review@396f218</a>
+from <a href="https://github.com/LengerichLab/context-review/tree/0ef81db4901afc8353026b6eed6c8cccd8aad8de">LengerichLab/context-review@0ef81db</a>
 on August 25, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -135,6 +135,11 @@ Computational Biology Department, Carnegie Mellon University
 <h2 class="page_break_before" id="abstract">Abstract</h2>
 <p>Context-adaptive inference offers a promising way to improve statistical methods, particularly by using foundation models to provide context. Recent progress is reviewed, key challenges are identified, and practical opportunities for integration are explored. By combining these approaches, we can unlock new possibilities for making statistical methods more effective and adaptable in real-world scenarios, driving meaningful advances in both research and practice.</p>
 <h2 id="introduction">Introduction</h2>
+<h3 id="purpose-and-scope">Purpose and Scope</h3>
+<p>TODO: Establishing the framework for our examination of context-adaptive statistical methods and the significance of foundation models.</p>
+<h3 id="conceptual-foundations">Conceptual Foundations</h3>
+<p>Unpacking the core principles and historical impact of adaptive methods within statistical modeling.</p>
+<h3 id="a-brief-history-of-personalized-inference">A Brief History of Personalized Inference</h3>
 <p>Personalization aims to solve the problem of <em>parameter heterogeneity</em>, where model parameters are <em>sample-specific</em>.
 <span class="math display">\[X_i \sim P(X; \theta_i)\]</span>
 From <span class="math inline">\(N\)</span> observations, personalized modeling methods aim to recover <span class="math inline">\(N\)</span> parameter estimates <span class="math inline">\(\widehat{\theta}_1, ..., \widehat{\theta}_N\)</span>.
@@ -209,6 +214,46 @@ Noted in foundational literature for linear varying coefficient models <span cla
 <p>Seminal paper: <span class="citation" data-cites="WlwUpYp">[<a href="#ref-WlwUpYp" role="doc-biblioref">16</a>]</span></p>
 <p>Key idea: negative information sharing. Different models should be pushed apart.
 <span class="math display">\[ \widehat{\theta}_0, ..., \widehat{\theta}_N = \arg\max_{\theta_0, ..., \theta_N, D} \sum_{i=0}^N \prod_{j=0 s.t. D(c_i, c_j) &lt; d}^N P(x_j; \theta_i) P(\theta_i ; \theta_j) \]</span></p>
+<h2 id="theoretical-foundations-and-advances-in-varying-coefficient-models">Theoretical Foundations and Advances in Varying-Coefficient Models</h2>
+<h3 id="principles-of-adaptivity">Principles of Adaptivity</h3>
+<p>TODO: Analyzing the core principles that underpin adaptivity in statistical modeling.</p>
+<h3 id="advances-in-varying-coefficient-models">Advances in Varying-Coefficient Models</h3>
+<p>TODO: Outlining key theoretical and methodological breakthroughs.</p>
+<h3 id="integration-with-state-of-the-art-machine-learning">Integration with State-of-the-Art Machine Learning</h3>
+<p>TODO: Assessing the enhancement of VC models through modern ML technologies (e.g. deep learning, boosted trees, etc).</p>
+<h2 id="opportunities-for-foundation-models">Opportunities for Foundation Models</h2>
+<h3 id="expanding-frameworks">Expanding Frameworks</h3>
+<p>TODO: Define foundation models, Explore how foundation models are redefining possibilities within statistical models.</p>
+<h3 id="foundation-models-as-context">Foundation models as context</h3>
+<p>TODO: Show recent progress and ongoing directions in using foundation models as context.</p>
+<h2 id="applications-case-studies-and-evaluations">Applications, Case Studies, and Evaluations</h2>
+<h3 id="implementation-across-sectors">Implementation Across Sectors</h3>
+<p>TODO: Detailed examination of context-adaptive models in sectors like healthcare and finance.</p>
+<h3 id="performance-evaluation">Performance Evaluation</h3>
+<p>TODO: Successes, failures, and comparative analyses of context-adaptive models across applications.</p>
+<h2 id="technological-and-software-tools">Technological and Software Tools</h2>
+<h3 id="survey-of-tools">Survey of Tools</h3>
+<p>TODO: Reviewing current technological supports for context-adaptive models.</p>
+<h3 id="selection-and-usage-guidance">Selection and Usage Guidance</h3>
+<p>TODO: Offering practical advice on tool selection and use for optimal outcomes.</p>
+<h2 id="future-trends-and-predictions">Future Trends and Predictions</h2>
+<h3 id="emerging-technologies">Emerging Technologies</h3>
+<p>TODO: Identifying upcoming technologies and predicting their impact on context-adaptive learning.</p>
+<h3 id="advances-in-methodologies">Advances in Methodologies</h3>
+<p>TODO: Speculating on potential future methodological enhancements.</p>
+<h2 id="open-problems">Open Problems</h2>
+<h3 id="theoretical-challenges">Theoretical Challenges</h3>
+<p>TODO: Critically examining unresolved theoretical issues like identifiability, etc.</p>
+<h3 id="ethical-and-regulatory-considerations">Ethical and Regulatory Considerations</h3>
+<p>TODO: Discussing the ethical landscape and regulatory challenges, with focus on benefits of interpretability and regulatability.</p>
+<h3 id="complexity-in-implementation">Complexity in Implementation</h3>
+<p>TODO: Addressing obstacles in practical applications and gathering insights from real-world data.</p>
+<p>TODO: Other open problems?</p>
+<h2 id="conclusion">Conclusion</h2>
+<h3 id="overview-of-insights">Overview of Insights</h3>
+<p>TODO: Summarizing the main findings and contributions of this review.</p>
+<h3 id="future-directions">Future Directions</h3>
+<p>TODO: Discussing potential developments and innovations in context-adaptive statistical inference.</p>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
