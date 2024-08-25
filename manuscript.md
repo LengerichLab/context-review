@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-08-25" />
   <meta name="citation_publication_date" content="2024-08-25" />
   <meta property="article:published_time" content="2024-08-25" />
-  <meta name="dc.modified" content="2024-08-25T14:22:26+00:00" />
-  <meta property="article:modified_time" content="2024-08-25T14:22:26+00:00" />
+  <meta name="dc.modified" content="2024-08-25T14:38:34+00:00" />
+  <meta property="article:modified_time" content="2024-08-25T14:38:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://LengerichLab.github.io/context-review/" />
   <meta name="citation_pdf_url" content="https://LengerichLab.github.io/context-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://LengerichLab.github.io/context-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/" />
-  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/" />
+  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://LengerichLab.github.io/context-review/v/396f218dc1111c1a4b513d8e045876e137d3ec1c/))
+([permalink](https://LengerichLab.github.io/context-review/v/0ef81db4901afc8353026b6eed6c8cccd8aad8de/))
 was automatically generated
-from [LengerichLab/context-review@396f218](https://github.com/LengerichLab/context-review/tree/396f218dc1111c1a4b513d8e045876e137d3ec1c)
+from [LengerichLab/context-review@0ef81db](https://github.com/LengerichLab/context-review/tree/0ef81db4901afc8353026b6eed6c8cccd8aad8de)
 on August 25, 2024.
 </em></small>
 
@@ -123,6 +123,16 @@ Context-adaptive inference offers a promising way to improve statistical methods
 
 
 ## Introduction
+
+### Purpose and Scope
+TODO: Establishing the framework for our examination of context-adaptive statistical methods and the significance of foundation models.
+
+### Conceptual Foundations
+Unpacking the core principles and historical impact of adaptive methods within statistical modeling.
+
+
+### A Brief History of Personalized Inference
+
 Personalization aims to solve the problem of _parameter heterogeneity_, where model parameters are _sample-specific_. 
 $$X_i \sim P(X; \theta_i)$$
 From $N$ observations, personalized modeling methods aim to recover $N$ parameter estimates $\widehat{\theta}_1, ..., \widehat{\theta}_N$.
@@ -224,6 +234,76 @@ Seminal paper: @doi:10.48550/arXiv.1910.06939
 Key idea: negative information sharing. Different models should be pushed apart.
 $$ \widehat{\theta}_0, ..., \widehat{\theta}_N = \arg\max_{\theta_0, ..., \theta_N, D} \sum_{i=0}^N \prod_{j=0 s.t. D(c_i, c_j) < d}^N P(x_j; \theta_i) P(\theta_i ; \theta_j) $$
 
+
+## Theoretical Foundations and Advances in Varying-Coefficient Models
+
+### Principles of Adaptivity
+TODO: Analyzing the core principles that underpin adaptivity in statistical modeling.
+
+### Advances in Varying-Coefficient Models
+TODO: Outlining key theoretical and methodological breakthroughs.
+
+### Integration with State-of-the-Art Machine Learning
+TODO: Assessing the enhancement of VC models through modern ML technologies (e.g. deep learning, boosted trees, etc).
+
+## Opportunities for Foundation Models
+
+### Expanding Frameworks
+TODO: Define foundation models, Explore how foundation models are redefining possibilities within statistical models.
+
+
+### Foundation models as context
+TODO: Show recent progress and ongoing directions in using foundation models as context.
+
+
+## Applications, Case Studies, and Evaluations
+
+### Implementation Across Sectors
+TODO: Detailed examination of context-adaptive models in sectors like healthcare and finance.
+
+### Performance Evaluation
+TODO: Successes, failures, and comparative analyses of context-adaptive models across applications.
+
+
+## Technological and Software Tools
+
+### Survey of Tools
+TODO: Reviewing current technological supports for context-adaptive models.
+
+### Selection and Usage Guidance
+TODO: Offering practical advice on tool selection and use for optimal outcomes.
+
+
+## Future Trends and Predictions
+
+### Emerging Technologies
+TODO: Identifying upcoming technologies and predicting their impact on context-adaptive learning.
+
+### Advances in Methodologies
+TODO: Speculating on potential future methodological enhancements.
+
+
+## Open Problems
+
+### Theoretical Challenges
+TODO: Critically examining unresolved theoretical issues like identifiability, etc.
+
+### Ethical and Regulatory Considerations
+TODO: Discussing the ethical landscape and regulatory challenges, with focus on benefits of interpretability and regulatability.
+
+### Complexity in Implementation
+TODO: Addressing obstacles in practical applications and gathering insights from real-world data.
+
+TODO: Other open problems?
+
+## Conclusion
+
+### Overview of Insights
+TODO: Summarizing the main findings and contributions of this review.
+
+
+### Future Directions
+TODO: Discussing potential developments and innovations in context-adaptive statistical inference.
 
 ## References {.page_break_before}
 
