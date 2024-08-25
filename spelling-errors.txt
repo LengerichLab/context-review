@@ -3,7 +3,7 @@ blengerich
 cnellington
 covariate
 covariates
-lengerich
+Lengerich
 OLS
 Personalization
 probablybots
