@@ -14,9 +14,9 @@ This manuscript is created automatically from the content in [content](https://g
 + **PDF manuscript** at https://LengerichLab.github.io/context-review/manuscript.pdf
 
 ---
-
-## Manubot
-
+<details>
+  <summary><h2>Manubot</h2></summary>
+  
 <!-- usage note: do not edit this section -->
 
 Manubot is a system for writing scholarly manuscripts via GitHub.
@@ -87,7 +87,10 @@ The `gh-pages` branch uses [GitHub Pages](https://pages.github.com/) to host the
 
 For continuous integration configuration details, see [`.github/workflows/manubot.yaml`](.github/workflows/manubot.yaml).
 
-## License
+</details>
+
+<details>
+  <summary><h2>License</h2></summary>
 
 <!--
 usage note: edit this section to change the license of your manuscript or source code changes to this repository.
@@ -119,3 +122,5 @@ All other files are only available under CC BY 4.0, including:
 + `*.docx`
 
 Please open [an issue](https://github.com/LengerichLab/context-review/issues) for any question related to licensing.
+
+</details>
