@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-23" />
   <meta name="citation_publication_date" content="2024-10-23" />
   <meta property="article:published_time" content="2024-10-23" />
-  <meta name="dc.modified" content="2024-10-23T19:50:33+00:00" />
-  <meta property="article:modified_time" content="2024-10-23T19:50:33+00:00" />
+  <meta name="dc.modified" content="2024-10-23T20:01:09+00:00" />
+  <meta property="article:modified_time" content="2024-10-23T20:01:09+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://LengerichLab.github.io/context-review/" />
   <meta name="citation_pdf_url" content="https://LengerichLab.github.io/context-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://LengerichLab.github.io/context-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/" />
-  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e/" />
+  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/))
+([permalink](https://LengerichLab.github.io/context-review/v/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e/))
 was automatically generated
-from [LengerichLab/context-review@2528d57](https://github.com/LengerichLab/context-review/tree/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1)
+from [LengerichLab/context-review@2bf1d6a](https://github.com/LengerichLab/context-review/tree/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e)
 on October 23, 2024.
 </em></small>
 
@@ -118,9 +118,9 @@ on October 23, 2024.
 
 ## Abstract {.page_break_before}
 
-Context-adaptive inference offers a promising way to improve statistical methods, particularly by using foundation models to provide context. Recent progress is reviewed, key challenges are identified, and practical opportunities for integration are explored. By combining these approaches, we can unlock new possibilities for making statistical methods more effective and adaptable in real-world scenarios, driving meaningful advances in both research and practice.
-
-
+Context-adaptive inference enhances statistical methods by allowing model parameters to shift with context, either explicitly through parameter learning or implicitly via interactions between context and input features. 
+In this review, we outline recent progress in integrating context into statistical models and explore the potential of foundation models to serve as context providers. 
+We conclude by discussing future trends, challenges, and opportunities in context-adaptive statistical inference.
 
 ## Introduction
 
