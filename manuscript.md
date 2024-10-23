@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-10-11'
+date-meta: '2024-10-23'
 author-meta:
 - Ben Lengerich
 - Caleb N. Ellington
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="Context-Adaptive Statistical Inference: Recent Progress, Open Problems, and Opportunities for Foundation Models" />
   <meta property="og:title" content="Context-Adaptive Statistical Inference: Recent Progress, Open Problems, and Opportunities for Foundation Models" />
   <meta property="twitter:title" content="Context-Adaptive Statistical Inference: Recent Progress, Open Problems, and Opportunities for Foundation Models" />
-  <meta name="dc.date" content="2024-10-11" />
-  <meta name="citation_publication_date" content="2024-10-11" />
-  <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T19:49:14+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T19:49:14+00:00" />
+  <meta name="dc.date" content="2024-10-23" />
+  <meta name="citation_publication_date" content="2024-10-23" />
+  <meta property="article:published_time" content="2024-10-23" />
+  <meta name="dc.modified" content="2024-10-23T19:50:33+00:00" />
+  <meta property="article:modified_time" content="2024-10-23T19:50:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://LengerichLab.github.io/context-review/" />
   <meta name="citation_pdf_url" content="https://LengerichLab.github.io/context-review/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://LengerichLab.github.io/context-review/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/0d464534086e06b64933605aad0134f91fa46906/" />
-  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/0d464534086e06b64933605aad0134f91fa46906/" />
-  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/0d464534086e06b64933605aad0134f91fa46906/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/" />
+  <meta name="manubot_html_url_versioned" content="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://LengerichLab.github.io/context-review/v/0d464534086e06b64933605aad0134f91fa46906/))
+([permalink](https://LengerichLab.github.io/context-review/v/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1/))
 was automatically generated
-from [LengerichLab/context-review@0d46453](https://github.com/LengerichLab/context-review/tree/0d464534086e06b64933605aad0134f91fa46906)
-on October 11, 2024.
+from [LengerichLab/context-review@2528d57](https://github.com/LengerichLab/context-review/tree/2528d57ccdac66e46f2d69ffb7d5b0879572f6d1)
+on October 23, 2024.
 </em></small>
 
 
@@ -245,6 +245,19 @@ TODO: Outlining key theoretical and methodological breakthroughs.
 
 ### Integration with State-of-the-Art Machine Learning
 TODO: Assessing the enhancement of VC models through modern ML technologies (e.g. deep learning, boosted trees, etc).
+
+### Context-Invariant Training
+TODO: The converse of VC models, exploring the implications of training context-invariant models.
+e.g. out-of-distribution generalization, robustness to adversarial attacks.
+
+## Context-Adaptive Interpretations of Context-Invariant Models
+
+In the previous section, we discussed the importance of context in model parameters. 
+Such context-adaptive models can be learned by explicitly modeling the impact of contextual variables on model parameters, or learned implicitly in a model containing interaction effects between the context and the input features.
+In this section, we will focus on recent progress in understanding how context influences interpretations of statistical models, even when the model was not originally designed to incorporate context.
+
+TODO: Discussing the implications of context-adaptive interpretations for traditional models. Related work including LIME/DeepLift/DeepSHAP.
+
 
 ## Opportunities for Foundation Models
 

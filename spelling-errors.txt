@@ -1,12 +1,14 @@
-Adaptivity
+adaptivity
 arxiv
 blengerich
 cnellington
 covariate
 covariates
+DeepLift
+DeepSHAP
 identifiability
 interpretability
-lengerich
+Lengerich
 OLS
 Personalization
 probablybots
