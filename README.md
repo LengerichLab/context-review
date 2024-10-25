@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/LengerichLab/context-review/tree/gh-pages) branch hosts the contents of this directory at <https://LengerichLab.github.io/context-review/>.
-The permalink for this webpage version is <https://LengerichLab.github.io/context-review/v/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e/>.
+The permalink for this webpage version is <https://LengerichLab.github.io/context-review/v/52b3b121ba0c2a0356924294987782ef0f5a00bb/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://LengerichLab.github.io/context-review/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`2bf1d6a1013c70527c793723a3b9d9b8f11ee82e`](https://github.com/LengerichLab/context-review/commit/2bf1d6a1013c70527c793723a3b9d9b8f11ee82e).
+[`52b3b121ba0c2a0356924294987782ef0f5a00bb`](https://github.com/LengerichLab/context-review/commit/52b3b121ba0c2a0356924294987782ef0f5a00bb).
