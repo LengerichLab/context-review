@@ -8,7 +8,7 @@ DeepLift
 DeepSHAP
 identifiability
 interpretability
-Lengerich
+lengerich
 OLS
 Personalization
 probablybots
